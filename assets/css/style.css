@@ -183,8 +183,8 @@ section{position:relative}
   .process__grid{grid-template-columns:1fr}
   .process__media{display:none}
   .step{min-height:0}
-  .step__img{display:block;border-radius:var(--radius-sm);overflow:hidden;aspect-ratio:4/3;margin-bottom:24px}
-  .step__img img{width:100%;height:100%;object-fit:cover}
+  .step__img{display:block;border-radius:var(--radius-sm);overflow:hidden;aspect-ratio:4/5;max-height:72vh;margin-bottom:24px}
+  .step__img img{width:100%;height:100%;object-fit:cover;object-position:50% 12%}
 }
 
 /* services bento */

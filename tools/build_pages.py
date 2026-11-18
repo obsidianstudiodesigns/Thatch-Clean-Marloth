@@ -36,7 +36,7 @@ def page(slug, title, desc, body, robots="index, follow"):
 <link rel="apple-touch-icon" href="{'/Thatch-Clean-Marloth/' if slug == '404.html' else ''}apple-touch-icon.png">
 <link rel="manifest" href="{'/Thatch-Clean-Marloth/' if slug == '404.html' else ''}site.webmanifest">
 {'<base href="/Thatch-Clean-Marloth/">' if slug == '404.html' else ''}
-<link rel="stylesheet" href="assets/css/style.css?v=2">
+<link rel="stylesheet" href="assets/css/style.css?v=3">
 <script>document.documentElement.classList.replace('no-js','js')</script>
 </head>
 <body>

@@ -23,7 +23,7 @@ def page(slug, title, desc, body, robots="index, follow"):
 <meta name="description" content="{desc}">
 <meta name="robots" content="{robots}">
 {'' if slug == '404.html' else f'<link rel="canonical" href="{canon}">'}
-<meta name="theme-color" content="#141b16">
+<meta name="theme-color" content="#0c2a52">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Thatch Clean Marloth">
 <meta property="og:title" content="{title}">
@@ -36,22 +36,22 @@ def page(slug, title, desc, body, robots="index, follow"):
 <link rel="apple-touch-icon" href="{'/Thatch-Clean-Marloth/' if slug == '404.html' else ''}apple-touch-icon.png">
 <link rel="manifest" href="{'/Thatch-Clean-Marloth/' if slug == '404.html' else ''}site.webmanifest">
 {'<base href="/Thatch-Clean-Marloth/">' if slug == '404.html' else ''}
-<link rel="stylesheet" href="assets/css/style.css?v=1">
+<link rel="stylesheet" href="assets/css/style.css?v=2">
 <script>document.documentElement.classList.replace('no-js','js')</script>
 </head>
-<body class="page-solid">
+<body>
 <a class="skip" href="#main">Skip to content</a>
-<header class="site-header is-solid">
+<header class="site-header{'' if slug == '404.html' else ' is-solid'}">
   <div class="wrap bar">
     <a class="brand" href="./" aria-label="Thatch Clean Marloth, home">
-      <img src="assets/img/mark-160.png" alt="" width="38" height="38">
-      <span>Thatch Clean<small>Marloth Park</small></span>
+      <img class="logo-light" src="assets/img/logo-header-light.svg" alt="Thatch Clean, eco thatch cleaning specialists" width="211" height="66">
+      <img class="logo-dark" src="assets/img/logo-header.svg" alt="" width="211" height="66" aria-hidden="true">
     </a>
     <nav class="nav" id="nav" aria-label="Main">
       <a href="./#services">Services</a>
       <a href="./#process">How it works</a>
       <a href="./#faq">FAQ</a>
-      <a class="btn btn--primary" href="{WA}" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#i-whatsapp-logo"></use></svg>Get a free quote</a>
+      <a class="btn btn--gold" href="{WA}" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#i-whatsapp-logo"></use></svg>Get a free quote</a>
     </nav>
     <button class="menu-btn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav">
       <svg class="icon i-menu" aria-hidden="true"><use href="assets/icons.svg#i-list"></use></svg>
@@ -70,7 +70,7 @@ def page(slug, title, desc, body, robots="index, follow"):
     </div>
   </div>
 </footer>
-<script src="assets/js/main.js?v=1" defer></script>
+<script src="assets/js/main.js?v=2" defer></script>
 </body>
 </html>
 """
@@ -160,7 +160,7 @@ TERMS = f"""<div class="legal-head"><div class="wrap"><h1>Terms of use</h1><p>La
 NF = f"""<div class="nf"><div>
 <h1>This page has gone missing.</h1>
 <p>The link may be old, or the page may have moved. Everything you need is on the home page.</p>
-<a class="btn btn--primary" href="./">Back to the home page<svg class="icon arrow" aria-hidden="true"><use href="assets/icons.svg#i-arrow-right"></use></svg></a>
+<a class="btn btn--gold" href="./">Back to the home page<svg class="icon arrow" aria-hidden="true"><use href="assets/icons.svg#i-arrow-right"></use></svg></a>
 </div></div>"""
 
 
@@ -199,8 +199,8 @@ def main():
         "start_url": "./",
         "scope": "./",
         "display": "standalone",
-        "background_color": "#141b16",
-        "theme_color": "#141b16",
+        "background_color": "#0c2a52",
+        "theme_color": "#0c2a52",
         "icons": [
             {"src": "icon-192.png", "sizes": "192x192", "type": "image/png"},
             {"src": "icon-512.png", "sizes": "512x512", "type": "image/png"},

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="15 38 1188 372" role="img" aria-label="Thatch Clean, eco thatch cleaning specialists">
+<g fill="none" stroke="#d9c4a6" stroke-width="4.6" stroke-linejoin="miter" stroke-linecap="butt">
+<path d="M1196 397H25V160L205 47L246 73"/>
+<path d="M140 322V160L318 45L490 160"/>
+</g>
+<path fill="none" stroke="#d9c4a6" stroke-width="8.8" stroke-linejoin="miter" d="M76 234.4H136M106.0 234.4V316.0M152.4 230.0V316.0M209.6 230.0V316.0M152.4 274.72H209.6M230.4 316.0V247.4A13.0 13.0 0 0 1 243.4 234.4H268.6A13.0 13.0 0 0 1 281.6 247.4V316.0M230.4 280.72H281.6M298.0 234.4H358.0M328.0 234.4V316.0M424.0 234.4H387.4A13.0 13.0 0 0 0 374.4 247.4V298.6A13.0 13.0 0 0 0 387.4 311.6H424.0M440.4 230.0V316.0M497.6 230.0V316.0M440.4 274.72H497.6"/>
+<path fill="none" stroke="#7db8f2" stroke-width="8.8" stroke-linejoin="miter" d="M609.0 234.4H572.4A13.0 13.0 0 0 0 559.4 247.4V298.6A13.0 13.0 0 0 0 572.4 311.6H609.0M625.4 230.0V311.6H671.0M737.0 234.4H687.4V311.6H737.0M687.4 274.72H733.0M753.4 316.0V247.4A13.0 13.0 0 0 1 766.4 234.4H791.6A13.0 13.0 0 0 1 804.6 247.4V316.0M753.4 280.72H804.6M825.4 316.0V234.4H863.6A13.0 13.0 0 0 1 876.6 247.4V316.0"/>
+
+<g>
+<path fill="none" stroke="#c9dbf0" stroke-width="5" stroke-linecap="round" d="M1027 335C995 335 968 331 962 305C956 278 980 250 1010 222C1035 199 1062 180 1066 162C1069 148 1047 145 1027 158C1008 170 994 188 984 203"/>
+<path fill="none" stroke="#7db8f2" stroke-width="6.5" stroke-linecap="round" d="M984 202L912 384"/>
+<path fill="#c9dbf0" d="M866 398C868 391 878 387 892 387H912V398Z"/>
+<path fill="#7db8f2" d="M910 387H936C941 387 944 392 945 398H910Z"/>
+<path fill="#f0b429" d="M902 381H919L917 389H900Z"/>
+<path fill="#93b4d6" d="M1008 270H1068C1078 270 1084 278 1086 287H990C992 278 998 270 1008 270Z"/>
+<rect x="991" y="287" width="95" height="5" rx="2" fill="#0c2a52"/>
+<rect x="993" y="292" width="91" height="88" fill="#7fa3cb"/>
+<rect x="1052" y="292" width="32" height="88" fill="#a7c1dc"/>
+<rect x="999" y="324" width="34" height="18" rx="2" fill="#2f7fd0"/>
+<rect x="1004" y="328" width="18" height="10" rx="1.5" fill="#7db8f2"/>
+<rect x="993" y="359" width="91" height="2.6" fill="#d9c4a6"/>
+<rect x="993" y="366" width="91" height="2.6" fill="#d9c4a6"/>
+<rect x="988" y="379" width="101" height="6" rx="3" fill="#c9dbf0"/>
+<circle cx="1004" cy="392" r="6.5" fill="#c9dbf0"/>
+<circle cx="1073" cy="392" r="6.5" fill="#c9dbf0"/>
+</g>
+</svg>
